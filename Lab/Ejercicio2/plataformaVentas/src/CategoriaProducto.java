@@ -1,0 +1,5 @@
+public enum CategoriaProducto {
+
+    ALIMENTOS, BEBIDAS, ELECTRONICA, ROPA, HOGAR, JUGUETES, DEPORTES, LIBROS, OTROS;
+
+}
