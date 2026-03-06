@@ -10,7 +10,12 @@
         "codigo",
         "Descargando",
         "descargar",
+        "destinatario",
+        "Destinatario",
+        "direccion",
+        "Direccion",
         "excede",
+        "Excedida",
         "Fecha",
         "Generica",
         "imprimir",
@@ -23,6 +28,7 @@
         "puede",
         "recorrer",
         "siguientes",
-        "tiene"
+        "tiene",
+        "uniquindio"
     ]
 }
