@@ -1,5 +1,8 @@
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
 
 public class CatalogoEcommerce {
 
@@ -37,7 +40,8 @@ public class CatalogoEcommerce {
     }
 
     /***
-     * Genera una cantidad específica de productos con códigos únicos y precios aleatorios, insertándolos en el catálogo. Esta función es útil para pruebas de escalabilidad.
+     * Genera una cantidad específica de productos con códigos únicos y precios aleatorios, insertándolos en el catálogo. 
+     * Esta función es útil para pruebas de escalabilidad.
      * @param cantidad
      */
     public void generarProductos(int cantidad) {
@@ -67,7 +71,8 @@ public class CatalogoEcommerce {
     }
 
     /**
-     * Muestra un número limitado de resultados de búsqueda por código, permitiendo verificar la funcionalidad de búsqueda y la correcta recuperación de productos.
+     * Muestra un número limitado de resultados de búsqueda por código, permitiendo verificar la funcionalidad de búsqueda 
+     * y la correcta recuperación de productos.
      * @param cantidadMostrar
      */
     public void mostrarBusquedas(int cantidadMostrar) {
@@ -101,8 +106,10 @@ public class CatalogoEcommerce {
 
 
     /**
-     * Ejecuta una prueba completa del catálogo, incluyendo la generación de productos, inserción, búsqueda y ordenamiento, mientras mide el tiempo y la memoria utilizada.
-      * Al final, se muestra una comparación conceptual de las estructuras de datos utilizadas para cada operación, destacando las ventajas y desventajas de cada una en 
+     * Ejecuta una prueba completa del catálogo, incluyendo la generación de productos, inserción, búsqueda y ordenamiento, 
+     * mientras mide el tiempo y la memoria utilizada.
+      * Al final, se muestra una comparación conceptual de las estructuras de datos utilizadas para cada operación, destacando 
+      * las ventajas y desventajas de cada una en 
       * el contexto de un catálogo de e-commerce.
       * Esta función es esencial para evaluar el rendimiento y la eficiencia del catálogo bajo diferentes cargas de trabajo, 
       * proporcionando métricas clave para la toma de decisiones sobre optimizaciones futuras.
@@ -182,5 +189,9 @@ public class CatalogoEcommerce {
                 + (finOrden - inicioOrden) / 1_000_000.0);
         System.out.println("Memoria usada (bytes aprox): "
                 + memoriaUsada);
+    }
+
+    public ArrayList<ProductoEcommerce> getLista() {
+        return lista;
     }
 }

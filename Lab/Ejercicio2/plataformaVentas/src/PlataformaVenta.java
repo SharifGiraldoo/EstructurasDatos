@@ -1,5 +1,8 @@
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
 
 public class PlataformaVenta {
 
@@ -64,7 +67,8 @@ public class PlataformaVenta {
 
 
     /**
-     * Ejecuta una prueba completa del sistema de ventas, incluyendo la generación de productos, inserción, búsqueda, filtrado y ordenamiento, mientras mide el tiempo y la memoria utilizada.
+     * Ejecuta una prueba completa del sistema de ventas, incluyendo la generación de productos, inserción, búsqueda, filtrado y ordenamiento, mientras mide el tiempo y 
+     * la memoria utilizada.
       * Al final, se muestra una comparación conceptual de las estructuras de datos utilizadas para cada operación, destacando las ventajas y desventajas de cada una en 
       * el contexto de una plataforma de ventas. Esta función es esencial para evaluar el rendimiento y la eficiencia del sistema bajo diferentes cargas de trabajo, 
       * proporcionando métricas clave para la toma de decisiones sobre optimizaciones futuras.

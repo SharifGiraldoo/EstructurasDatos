@@ -44,7 +44,7 @@ public class Camion<T extends Paquete> implements Iterable<T>, Comparable<Camion
 
         public boolean hasPrevious() {
             return indice > 0;
-        }
+        }   
 
         public T previous() {
             if (!hasPrevious()) {
