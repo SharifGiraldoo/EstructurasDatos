@@ -28,11 +28,7 @@ public class Node {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-       
-        sb.append(data);
-        sb.append('}');
-        return sb.toString();
+        return data + " -> ";
     }
 
 

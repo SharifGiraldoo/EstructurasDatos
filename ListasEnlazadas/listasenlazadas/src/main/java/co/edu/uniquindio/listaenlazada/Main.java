@@ -10,6 +10,8 @@ public class Main {
         list1.addLast(2);
         list1.removeFirst();
 
+        list1.removeByIndex(3);
+
         list1.printList();
 
 
